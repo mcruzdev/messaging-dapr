@@ -11,7 +11,9 @@ git clone git@github.com:mcruzdev/quarkus-dapr.git
 2. Build the application
 
 ```shell
-cd quarkus-dapr/quarkus-reactive-messaging-dapr
+cd quarkus-dapr
+git switch reactive-messaging-dapr
+cd quarkus-reactive-messaging-dapr
 mvn clean install -DskipTests
 ```
 
